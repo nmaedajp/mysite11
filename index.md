@@ -12,14 +12,14 @@
 
 \toc
 
-## test
-こんばんは
+## 式のテスト
 
+二次関数
 $$
 y = ax^2+bx+c
 $$
-2次関数．
 
+指数関数
 $$
 y = a\exp(-bM)
 $$
@@ -45,6 +45,22 @@ rand(5, 5)
 ```
 \show{./ex15}
 
+## 表を作成する
+test table
+
+\tableinput{}{./tableinput/test.csv}
+@@source
+Source: Test
+@@
+
+|point|b  |c  |d  |
+|:---:|:---:|:---:|:---:|
+|point A|3.3|4.4|5.5|
+|point B|2.3|6.4|8.5|
+
+## イメージファイルの挿入
+
+![準備中](/assets/dummy.pdf)
 
 <!--
 # Franklin syntax sandbox

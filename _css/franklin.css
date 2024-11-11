@@ -1,3 +1,25 @@
+/* table rulses */
+
+th{
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(odd){
+  background: lightgray;
+}
+
+tr:nth-child(even){
+  background: lightgreen;
+}
+
+/* custom css */
+.source{
+  font-size: var(--small);
+  font-style: italic;
+}
+
 /* ==================================================================
     VARIABLES
 ================================================================== */
